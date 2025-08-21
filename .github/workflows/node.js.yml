@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x, 22.x]
+        node-version: [18.x, 20.x, 22.x, 24.x]
         karma-version: [2.0.x, 3.0.x, 3.1.x, 4.4.x, 5.x, 6.x]
     steps:
       - uses: actions/checkout@v2
